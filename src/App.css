@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 } */
+
+.para{
+  width: 80%;
+  margin-bottom: 32px;
+  font-weight:500;
+}
+
+.headingSize{
+  font-size: 30px;
+  font-weight: bold;
+  width: 80%;
+  margin-bottom: 32px;
+}
+
+.point{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list{
+  width: 80%;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.listAlpha{
+  list-style-type: lower-alpha;
+  width: 80%;
+  padding-left: 30px;
+  font-weight: 400;
+}
+
+.pointAlpha{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}

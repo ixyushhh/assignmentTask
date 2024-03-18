@@ -23,9 +23,9 @@ const navName = [
 
 ]
 
-const Nav = () => {
+const Home = () => {
     return (
-        <div  style={{backgroundImage: "url('images/bgImage.png')", height: "100vh", backgroundSize:'cover'}}>
+        <div style={{ backgroundImage: "url('images/bgImage.png')", height: "100vh", backgroundSize: 'cover' }}>
             <div className='flex py-6 px-16 justify-between'>
                 <div className=' text-white font-bold flex items-center gap-2'>
                     {/* <img src='/images/logo.png'/> */}
@@ -59,8 +59,24 @@ const Nav = () => {
                 </div>
             </div>
 
+            <div className='flex items-center gap-6 justify-center '>
+                <div className='relative ' style={{zIndex: '1'}}>
+                    <img src='/images/carpediem.png' width={'550px'} height={'520px'}/>
+                </div>
+                
+                <div className='bg-white top-36 p-2 rounded-md' style={{zIndex: '2',  position: 'absolute'}}>
+                    <img src='/images/CDPension.png'/>
+                </div>  
+
+                <div className='text-white flex-row '>
+                    <h1 className='text-4xl font-bold'>Securing Trust : Boosting<br/> Security and Strengthening <br/> Trust at Carpe Diem Pension</h1>
+                    <br/>
+                    <p>QuillAudits enhances Carpe Diem Pension by<br/> addressing 33 vulnerabilities on the Pulse blockchain,<br/> boosting security and user trust in digital pensions.</p>
+                </div>
+            </div>
+
         </div>
     )
 }
 
-export default Nav
+export default Home
